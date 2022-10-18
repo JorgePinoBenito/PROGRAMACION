@@ -1,0 +1,19 @@
+.fa-home {
+  color: green;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-twitch {
+  color: #6441a5;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+a {
+  text-decoration: none;
+}

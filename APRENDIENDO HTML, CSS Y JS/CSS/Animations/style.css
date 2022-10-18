@@ -1,0 +1,126 @@
+p {
+  width: 100px;
+  height: 100px;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+}
+
+#p1 {
+  animation: myColorAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#p2 {
+  background: red;
+}
+
+#p2:hover {
+  animation: myRotateAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#p3 {
+  background: green;
+  animation: myTranslateAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#p4 {
+  background: blue;
+}
+
+#p4:hover {
+  animation: myScaleAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#p5 {
+  background: purple;
+  animation: myOpacityAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#p6 {
+  background: yellow;
+}
+
+#p6:hover {
+  animation: myFontAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myColorAnimation {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: orange;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: green;
+  }
+  80% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes myRotateAnimation {
+  /*100% {
+    transform: rotateX(360deg);
+  }*/
+  /*100% {
+    transform: rotateY(360deg);
+  }*/
+  100% {
+    transform: rotateZ(800deg);
+  }
+}
+
+@keyframes myTranslateAnimation {
+  50% {
+    transform: translate(135px, 135px);
+  }
+}
+
+@keyframes myScaleAnimation {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes myOpacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes myFontAnimation {
+  0% {
+    font-size: 85px;
+  }
+  50% {
+    font-size: 400px;
+  }
+  100% {
+    font-size: 85px;
+  }
+}

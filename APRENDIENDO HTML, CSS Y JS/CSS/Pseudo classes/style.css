@@ -1,0 +1,58 @@
+a:link {
+  color: #78ffd0;
+}
+a:visited {
+  color: #d359ff;
+}
+
+button:hover {
+  background-color: #ff4529;
+  color: white;
+}
+
+button:active {
+  background-color: #d13b24;
+}
+
+/*
+Seleccionar primer elemento
+li:first-child {
+  background-color: #93ff7d;
+}
+
+Seleccionar ultimo elemento
+li:last-child {
+  background-color: #93ff7d;
+}
+
+Seleccionar cualquier elemento por indice
+li:nth-child(3) {
+  background-color: #93ff7d;
+}
+
+Seleccionar impares
+li:nth-child(odd) {
+  background-color: #93ff7d;
+}
+
+Seleccionar pares
+li:nth-child(even) {
+  background-color: #d359ff;
+}
+*/
+
+/* Formula para seleccionar series de elementos
+
+    nth-child(an+b){}
+    a = cycle size
+    n = counter (starts at 0)
+    b = offset value
+
+*/
+
+/* Selecciona todos los terceros elementos de la lista empezando por el 0 */
+li:nth-child(3n + 0) {
+  background-image: linear-gradient(to right, #fff421, #ffffff);
+  opacity: 0.5;
+  border: 1px solid;
+}

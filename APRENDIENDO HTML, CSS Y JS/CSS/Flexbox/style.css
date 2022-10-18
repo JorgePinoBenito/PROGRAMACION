@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #444444;
+  height: 400px;
+
+  /*
+  flex-direction: column-reverse;
+  width: 110px;
+  */
+
+  /*
+  justify-content: flex-start;
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: space-around;
+  */
+
+  /*
+  align-items: flex-start;
+  align-items: center;
+  align-items: flex-end;
+  */
+
+  /*Alinear algo en el centro de la pagina con flexbox*/
+  justify-content: center;
+  align-items: center;
+}
+
+.container div {
+  color: white;
+  height: 100px;
+  width: 100px;
+  background-color: #999999;
+  text-align: center;
+  line-height: 100px;
+  font-size: 50px;
+  margin: 5px;
+}

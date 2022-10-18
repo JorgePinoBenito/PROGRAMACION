@@ -1,0 +1,25 @@
+html {
+  color: white;
+  background-image: url("images/espacio.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  /*background: linear-gradient(grey, black);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;*/
+}
+
+h1 {
+  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+p {
+  background: linear-gradient(to right, grey, black);
+}
+
+#mytext {
+  background: linear-gradient(to right, grey, black);
+}
